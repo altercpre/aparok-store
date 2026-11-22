@@ -1,7 +1,7 @@
 # Any Store
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/anyproto/any-store/v2.svg)](https://pkg.go.dev/github.com/anyproto/any-store/v2)
-[![Go Report Card](https://goreportcard.com/badge/github.com/anyproto/any-store/v2)](https://goreportcard.com/report/github.com/anyproto/any-store/v2)
+[![Go Reference](https://pkg.go.dev/badge/github.com/altercpre/aparok-store/v2.svg)](https://pkg.go.dev/github.com/altercpre/aparok-store/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/altercpre/aparok-store/v2)](https://goreportcard.com/report/github.com/altercpre/aparok-store/v2)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 A **document-oriented embedded database** for Go with a MongoDB-like query language, built on an in-tree btree/pager/WAL storage engine derived from SQLite (aligned with its design, not a literal port — the on-disk format is our own).
@@ -28,13 +28,13 @@ Schema-less documents, rich indexes, full-text and vector search, ACID transacti
 ### Install
 
 ```bash
-go get github.com/anyproto/any-store/v2
+go get github.com/altercpre/aparok-store/v2
 ```
 
 CLI (optional):
 
 ```bash
-go install github.com/anyproto/any-store/cmd/any-store-cli2/v2@latest
+go install github.com/altercpre/aparok-store/cmd/any-store-cli2/v2@latest
 ```
 
 ### Hello, Any Store
@@ -47,8 +47,8 @@ import (
     "fmt"
     "log"
 
-    anystore "github.com/anyproto/any-store/v2"
-    "github.com/anyproto/any-store/v2/anyenc"
+    anystore "github.com/altercpre/aparok-store/v2"
+    "github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 func main() {
@@ -80,7 +80,7 @@ func main() {
 }
 ```
 
-The full end-to-end example lives in [`example/`](example) and the [API docs](https://pkg.go.dev/github.com/anyproto/any-store/v2).
+The full end-to-end example lives in [`example/`](example) and the [API docs](https://pkg.go.dev/github.com/altercpre/aparok-store/v2).
 
 > **Choosing document ids.** Unlike SQLite there is no hidden rowid — the document id is the btree key. Increment-like ids (`anyenc.NewObjectID()`, timestamps, sequences) keep inserts append-ordered and reads cache-friendly; fully random ids (e.g. UUIDv4) scatter them. In practice this only matters for very hot write/read paths or huge collections.
 
@@ -251,7 +251,7 @@ Opening a format 6 file with v2.4.4 fails with `ErrIncompatibleVersion` and leav
 
 ## Documentation
 
-* **API reference** — [pkg.go.dev/github.com/anyproto/any-store/v2](https://pkg.go.dev/github.com/anyproto/any-store/v2)
+* **API reference** — [pkg.go.dev/github.com/altercpre/aparok-store/v2](https://pkg.go.dev/github.com/altercpre/aparok-store/v2)
 * **Query semantics** — [docs/query-filter-contract.md](docs/query-filter-contract.md)
 * **Full-text search** — [docs/full-text-search.md](docs/full-text-search.md)
 * **Vector search** — [docs/vector-search.md](docs/vector-search.md), [docs/vector-engine.md](docs/vector-engine.md)
