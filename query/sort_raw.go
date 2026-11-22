@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // RawSort is an optional fast path implemented by sorts that can build their

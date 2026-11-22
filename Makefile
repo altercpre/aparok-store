@@ -1,6 +1,6 @@
 .PHONY: build test test-legacy-format cover deps
 SHELL=/bin/bash
-export GOPRIVATE=github.com/anyproto
+export GOPRIVATE=github.com/altercpre
 export PATH:=deps:$(PATH)
 export CGO_ENABLED:=1
 BUILD_GOOS:=$(shell go env GOOS)
@@ -27,7 +27,7 @@ test-legacy-format:
 # from outside the package
 cover:
 	rm -rf .coverdata && mkdir .coverdata
-	go test . ./test/ -coverpkg=github.com/anyproto/any-store/v2 $(TAGS) \
+	go test . ./test/ -coverpkg=github.com/altercpre/aparok-store/v2 $(TAGS) \
 		-args -test.gocoverdir=$(CURDIR)/.coverdata
 	go tool covdata percent -i=.coverdata
 

@@ -3,8 +3,8 @@ package aggregate
 import (
 	"errors"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // errFacetPause is the internal control-flow sentinel of the facet fan-out: a

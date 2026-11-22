@@ -1,7 +1,7 @@
 package anystore
 
 import (
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // item wraps a document value. Key derivation and validation are collection

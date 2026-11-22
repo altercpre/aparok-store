@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // The idle flush must keep running after the context passed to Open is

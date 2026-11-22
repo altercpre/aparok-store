@@ -6,7 +6,7 @@ import (
 	"os"
 	"slices"
 
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // readF32 / readI32 mirror the ASV_VBENCH export format used by

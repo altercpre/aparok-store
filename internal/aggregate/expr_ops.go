@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // exprOpParsers is the compute-operator vocabulary as data — same pattern as

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/parser"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/parser"
 )
 
 // ErrVectorNotOrderable is returned when an ordering operator ($gt/$gte/$lt/$lte)

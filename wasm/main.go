@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"syscall/js"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 const smokeDBPath = "/anystore-smoke/smoke.db"

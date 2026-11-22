@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // Expr is an aggregation expression evaluated against one document.

@@ -16,8 +16,8 @@ import (
 
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 	"unsafe"
 )
 

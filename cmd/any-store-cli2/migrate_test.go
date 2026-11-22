@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 )
 
 // Test_Migrate: db.migrate(path) copies the open database into a new file

@@ -3,8 +3,8 @@ package query
 import (
 	"sync"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // leafBuf is the leaf-set scratch Key.Ok borrows when the caller passes no

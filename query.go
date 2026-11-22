@@ -6,10 +6,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
-	"github.com/anyproto/any-store/v2/query"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // ModifyResult represents the result of a modification operation.

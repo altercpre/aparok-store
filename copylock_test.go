@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // The lock file has content while it is held and goes with its holder; a

@@ -1,7 +1,7 @@
 package anystore
 
 import (
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 func copyItem(buf *syncpool.DocBuffer, it item) item {

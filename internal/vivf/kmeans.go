@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"runtime"
 
-	"github.com/anyproto/any-store/v2/internal/buildpool"
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/buildpool"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // kmeans runs Lloyd's algorithm on data, returning k centroids. Assignment (the

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/internal/aggregate"
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/aggregate"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 var (
@@ -206,7 +206,7 @@ var (
 	// ErrV1Database is returned by Open when the file was created by any-store
 	// v1, which is SQLite-backed and cannot be read by v2. See
 	// docs/migration-v1-to-v2.md for moving the data across.
-	ErrV1Database = errors.New("any-store: file is an any-store v1 database, not readable by v2; use github.com/anyproto/any-store or migrate (docs/migration-v1-to-v2.md)")
+	ErrV1Database = errors.New("any-store: file is an any-store v1 database, not readable by v2; use github.com/altercpre/aparok-store or migrate (docs/migration-v1-to-v2.md)")
 
 	// ErrCorrupt is the umbrella for damaged database files: every error below that names a kind
 	// of damage matches it, as does a broken structure found while reading. Match it when the kind

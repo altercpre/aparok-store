@@ -1,8 +1,8 @@
 package anystore
 
 import (
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/fts"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/fts"
 )
 
 // fulltext_termstream.go provides a cross-chunk iterator over a single term's

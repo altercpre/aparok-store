@@ -1,6 +1,6 @@
 goos: linux
 goarch: arm64
-pkg: github.com/anyproto/any-store/internal/btree
+pkg: github.com/altercpre/aparok-store/internal/btree
 BenchmarkGet-8                 	  190520	      6249 ns/op	   12646 B/op	       7 allocs/op
 BenchmarkGet-8                 	  194874	      5203 ns/op	   12647 B/op	       7 allocs/op
 BenchmarkGet-8                 	  250873	      4744 ns/op	   12647 B/op	       7 allocs/op
@@ -47,4 +47,4 @@ BenchmarkReadTxPageAllocs-8             	    8874	    125997 ns/op	   43059 B/op
 BenchmarkReadTxPageAllocs-8             	    9421	    126722 ns/op	   43061 B/op	    1256 allocs/op
 BenchmarkReadTxPageAllocs-8             	    9495	    126666 ns/op	   43059 B/op	    1256 allocs/op
 PASS
-ok  	github.com/anyproto/any-store/internal/btree	200.540s
+ok  	github.com/altercpre/aparok-store/internal/btree	200.540s

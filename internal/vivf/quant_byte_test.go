@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // TestDistBytesMatchesDecode verifies the byte-kernel distance equals the

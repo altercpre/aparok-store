@@ -3,9 +3,9 @@ package qplanner
 import (
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // DistanceField is the virtual field name under which a vector query exposes the

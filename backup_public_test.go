@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 func openPublicDB(t *testing.T, conf *anystore.Config) anystore.DB {

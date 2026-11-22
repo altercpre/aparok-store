@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/anyproto/any-store/v2/internal/vecf"
+	"github.com/altercpre/aparok-store/v2/internal/vecf"
 )
 
 // The cell store holds int8-quantized vectors instead of raw f32 — ~4× smaller

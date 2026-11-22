@@ -5,8 +5,8 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/anyenc/anyencutil"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc/anyencutil"
 )
 
 type Modifier interface {

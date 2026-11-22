@@ -3,7 +3,7 @@ package vindex
 import (
 	"sync"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // vecTier is a process-wide, append-only RAM cache of the :vec namespace for a

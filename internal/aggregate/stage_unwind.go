@@ -1,7 +1,7 @@
 package aggregate
 
 import (
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // UnwindStage emits one row per element of an array field, replacing the

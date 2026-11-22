@@ -3,7 +3,7 @@ package aggregate
 import (
 	"errors"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // atPath prefixes seg onto a *query.ParseError's Path as the pipeline

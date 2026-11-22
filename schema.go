@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // collSchema is one version of a collection's schema: its name, its data

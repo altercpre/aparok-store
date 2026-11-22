@@ -1,7 +1,7 @@
 package aggregate
 
 import (
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // ProjectStage replaces each upstream document with a new object containing

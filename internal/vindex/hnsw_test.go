@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

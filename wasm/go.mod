@@ -1,10 +1,10 @@
-module github.com/anyproto/any-store/v2/wasm
+module github.com/altercpre/aparok-store/v2/wasm
 
 go 1.25.0
 
-replace github.com/anyproto/any-store/v2 => ../
+replace github.com/altercpre/aparok-store/v2 => ../
 
-require github.com/anyproto/any-store/v2 v2.0.0-00010101000000-000000000000
+require github.com/altercpre/aparok-store/v2 v2.0.0-00010101000000-000000000000
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect

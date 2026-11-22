@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // fts_probe_iter.go holds the probe form of a $text query: instead of the

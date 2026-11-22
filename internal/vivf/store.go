@@ -11,8 +11,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // Candidate is one search result: the document id and its distance to the query

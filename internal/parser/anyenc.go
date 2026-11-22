@@ -5,7 +5,7 @@ import (
 
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 func Parse(v any) (*anyenc.Value, error) {

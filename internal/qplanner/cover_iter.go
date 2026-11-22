@@ -3,7 +3,7 @@ package qplanner
 import (
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // CoverIter handles fixed-point lookups where Start == End in bounds.

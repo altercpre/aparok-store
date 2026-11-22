@@ -9,13 +9,13 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/anyenc/anyencutil"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
-	"github.com/anyproto/any-store/v2/internal/vindex"
-	"github.com/anyproto/any-store/v2/internal/vivf"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc/anyencutil"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/internal/vindex"
+	"github.com/altercpre/aparok-store/v2/internal/vivf"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // vectorIndex wraps a btree-resident HNSW (internal/vindex) and bridges it to

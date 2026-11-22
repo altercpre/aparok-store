@@ -10,10 +10,10 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/fts"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/fts"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // fulltext_search.go implements the read/query side: BM25 ranking over the

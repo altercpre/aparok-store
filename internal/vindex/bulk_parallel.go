@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/buildpool"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/buildpool"
 )
 
 // BulkBuildParallel is BulkBuild with a concurrent in-RAM graph construction

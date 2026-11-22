@@ -11,7 +11,7 @@ import (
 	"syscall/js"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 )
 
 // ---------------------------------------------------------------------------

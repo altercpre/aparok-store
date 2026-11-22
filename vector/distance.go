@@ -25,7 +25,7 @@ package vector
 import (
 	"math"
 
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // Metric selects how the distance between two vectors is measured.

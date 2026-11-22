@@ -5,8 +5,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // refBracket is the oracle's own copy of the bracket rule (MongoDB type

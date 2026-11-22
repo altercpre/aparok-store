@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // A transaction wait honours the caller's context: the writer lock and the

@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"unsafe"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // PagedHNSW is a prototype of "Option B" from COMPARISON_pgvector.md: instead of

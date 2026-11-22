@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
-	"github.com/anyproto/any-store/v2/internal/vindex"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/internal/vindex"
 )
 
 // IndexKind selects the kind of index.

@@ -7,9 +7,9 @@ import (
 
 	"github.com/klauspost/compress/s2"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
 )
 
 // IndexStats describes the storage footprint and sketch state of a single index.

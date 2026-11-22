@@ -3,7 +3,7 @@
 package simd
 
 import (
-	"github.com/anyproto/any-store/v2/internal/simd/asm"
+	"github.com/altercpre/aparok-store/v2/internal/simd/asm"
 	"golang.org/x/sys/cpu"
 )
 

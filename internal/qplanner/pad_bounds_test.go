@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // A forward (ascending-stored) tail must turn an exclusive Start into the

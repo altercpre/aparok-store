@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // Prefix is the leading pipeline part that can be pushed down into the access

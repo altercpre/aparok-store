@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/parser"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/parser"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // Pipeline is a parsed aggregation pipeline: an ordered list of stage specs.

@@ -9,12 +9,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/anyenc/anyencutil"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/internal/qplanner"
-	"github.com/anyproto/any-store/v2/query"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc/anyencutil"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/qplanner"
+	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // Collection represents a collection of documents.

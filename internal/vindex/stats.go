@@ -1,6 +1,6 @@
 package vindex
 
-import "github.com/anyproto/any-store/v2/internal/btree"
+import "github.com/altercpre/aparok-store/v2/internal/btree"
 
 // Stats summarises a vector index: graph parameters, node counts (live vs
 // tombstoned), and the physical size of each backing namespace.

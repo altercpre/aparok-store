@@ -1,6 +1,6 @@
 package anystore
 
-import "github.com/anyproto/any-store/v2/internal/fts"
+import "github.com/altercpre/aparok-store/v2/internal/fts"
 
 // fulltext_export.go exposes the full-text analyzer and scoring parameters so
 // an application can split text exactly as the index does (query building,

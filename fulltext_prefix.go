@@ -4,7 +4,7 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/anyproto/any-store/v2/internal/fts"
+	"github.com/altercpre/aparok-store/v2/internal/fts"
 )
 
 // fulltext_prefix.go scores prefix clauses — foo*, "foo bar"*, ^foo* — as ONE

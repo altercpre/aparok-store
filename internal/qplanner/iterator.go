@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // Iterator is the public interface for all query plan iterators.

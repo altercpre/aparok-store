@@ -3,7 +3,7 @@ package vindex
 import (
 	"encoding/binary"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // Compact rebuilds the index from its live vectors, dropping every tombstone and

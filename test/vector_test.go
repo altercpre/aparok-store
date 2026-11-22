@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
-	"github.com/anyproto/any-store/v2/syncpool"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

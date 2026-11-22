@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // These tests pin the package-level filter contract (see docs/query-filter-contract.md):

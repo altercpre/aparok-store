@@ -3,7 +3,7 @@ package anystore
 import (
 	"sync"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 var qbPool = &sync.Pool{

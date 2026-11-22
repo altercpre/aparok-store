@@ -1,9 +1,9 @@
-module github.com/anyproto/any-store/cmd/any-store-cli2/v2
+module github.com/altercpre/aparok-store/cmd/any-store-cli2/v2
 
 go 1.26.0
 
 require (
-	github.com/anyproto/any-store/v2 v2.5.0
+	github.com/altercpre/aparok-store/v2 v2.5.0
 	github.com/fatih/color v1.19.0
 	github.com/peterh/liner v1.2.3
 	github.com/robertkrimen/otto v0.5.1

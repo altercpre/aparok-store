@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/anyproto/any-store/v2/internal/vecf"
+	"github.com/altercpre/aparok-store/v2/internal/vecf"
 )
 
 // Quantization selects how vectors are stored in the :vec namespace. It is a

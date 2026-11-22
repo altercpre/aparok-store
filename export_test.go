@@ -3,7 +3,7 @@ package anystore
 import (
 	"time"
 
-	"github.com/anyproto/any-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
 )
 
 // What the tests in package anystore_test reach of the package's inside.

@@ -1,7 +1,7 @@
 package anyencutil
 
 import (
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 // Copy deep-copies v onto arena a and returns the new value. The result is

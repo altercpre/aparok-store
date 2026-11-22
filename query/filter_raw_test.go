@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // TestFilterOkRawParity asserts the RawFilter contract: whenever OkRaw reports

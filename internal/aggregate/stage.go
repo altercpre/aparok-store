@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // ctxCheckEvery is how often (in consumed rows) blocking stages poll

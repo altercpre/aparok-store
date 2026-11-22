@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/anyenc/anyencutil"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc/anyencutil"
 )
 
 // Accumulator folds the per-row values of one $group output field.

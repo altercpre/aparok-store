@@ -9,10 +9,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/btree"
-	"github.com/anyproto/any-store/v2/query"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/btree"
+	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // fieldSelEntry holds per-field selectivity from single-field index sketches.

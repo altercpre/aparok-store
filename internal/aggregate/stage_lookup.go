@@ -3,8 +3,8 @@ package aggregate
 import (
 	"bytes"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // LookupFunc serves one $lookup point read: key is the anyenc-marshaled

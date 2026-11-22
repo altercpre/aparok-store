@@ -1,7 +1,7 @@
 package vivf
 
 import (
-	"github.com/anyproto/any-store/v2/internal/simd"
+	"github.com/altercpre/aparok-store/v2/internal/simd"
 )
 
 // normalize returns a unit-length copy of v (zero vector copied through).

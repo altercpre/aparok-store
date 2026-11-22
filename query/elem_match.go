@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // ElemMatch is {"$elemMatch": …}: the value must be an array with at least

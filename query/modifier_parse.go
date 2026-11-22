@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/internal/parser"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/internal/parser"
 )
 
 // modifierOps is the modifier grammar's operator vocabulary as data: the

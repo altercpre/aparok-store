@@ -1,7 +1,7 @@
 package query
 
 import (
-	"github.com/anyproto/any-store/v2/syncpool"
+	"github.com/altercpre/aparok-store/v2/syncpool"
 )
 
 // RawFilter is an optional fast path implemented by filters that can evaluate

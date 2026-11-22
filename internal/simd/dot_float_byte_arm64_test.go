@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/anyproto/any-store/v2/internal/simd/asm"
+	"github.com/altercpre/aparok-store/v2/internal/simd/asm"
 )
 
 // floatByteLengths covers every length 0..70 (each shape of the kernel's 32-,

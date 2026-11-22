@@ -14,7 +14,7 @@ duplicate — and silently drops the constraints that genuinely were unique.
 
 |             | v1                                   | v2                                 |
 | ----------- | ------------------------------------ | ---------------------------------- |
-| Import path | `github.com/anyproto/any-store`      | `github.com/anyproto/any-store/v2` |
+| Import path | `github.com/altercpre/aparok-store`      | `github.com/altercpre/aparok-store/v2` |
 | Engine      | SQLite, via `anyproto/go-sqlite`     | in-tree btree/pager/WAL, pure Go   |
 | File header | `SQLite format 3\0`                  | `any-store v2\0`, zero-padded to 16 bytes |
 | Minimum Go  | 1.24                                 | 1.25                               |
@@ -49,9 +49,9 @@ import (
 	"fmt"
 	"os"
 
-	v1 "github.com/anyproto/any-store"
-	v2 "github.com/anyproto/any-store/v2"
-	v2enc "github.com/anyproto/any-store/v2/anyenc"
+	v1 "github.com/altercpre/aparok-store"
+	v2 "github.com/altercpre/aparok-store/v2"
+	v2enc "github.com/altercpre/aparok-store/v2/anyenc"
 )
 
 const batchSize = 1000
@@ -333,7 +333,7 @@ invalid UTF-8 are unsupported. All are unreachable through JSON ingestion.
 v1 remains resolvable indefinitely at the unchanged module path:
 
 ```
-go get github.com/anyproto/any-store@v1
+go get github.com/altercpre/aparok-store@v1
 ```
 
 `v1.0.1` is the v0.4.x API plus the index-metadata and v2-detection fixes above.

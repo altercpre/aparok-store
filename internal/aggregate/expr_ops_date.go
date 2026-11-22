@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
 )
 
 // dateUnit is a calendar/time unit accepted by the date operators.
