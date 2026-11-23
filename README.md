@@ -1,4 +1,4 @@
-# Any Store
+# Aparok Store
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/altercpre/aparok-store/v2.svg)](https://pkg.go.dev/github.com/altercpre/aparok-store/v2)
 [![Go Report Card](https://goreportcard.com/badge/github.com/altercpre/aparok-store/v2)](https://goreportcard.com/report/github.com/altercpre/aparok-store/v2)
